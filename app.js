@@ -17,7 +17,7 @@ app.use(session({
     saveUninitialized: true,
     resave: true,
     secret: 'keyboard cat',
-    cookie: { maxAge: 60000 } 
+    cookie: { maxAge: 60000 }
 }));
 
 app.engine('ejs', ejsMate)
@@ -48,7 +48,7 @@ async function chatCompletion(res, comment, next) {
         const mindcare2 = await mind_care.findById('67b9d9d12dd7ed340c991077')
         const response = await chat.completions(comment, mindcare2);
         const mindcare = await mind_care.findByIdAndUpdate('67b9d9d12dd7ed340c991077', {$push: { responses: response, order: "responses", history: response}} );
-        
+
         res.render('chat', {mindcare2});
     } catch (e) {
         console.error(e);
@@ -66,7 +66,7 @@ app.get('/chat', async (req, res, next) => {
     }else{
         res.render('chat', {mindcare2});
     }
-    
+
 })
 
 app.get('/article', async (req, res, next) => {
