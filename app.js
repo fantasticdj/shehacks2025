@@ -1,12 +1,16 @@
+const OpenAI = require("openai");
 const express = require('express')
 const app = express()
-const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 const path = require('path');
 const PORT = 3000;
 
+require('dotenv').config()
+console.log(process.env)
+
 //connect to database
+const mongoose = require('mongoose');
 mongoose.connect('mongodb://127.0.0.1:27017/therapy')
     .then(() => console.log('Connection successful'))
     .catch(e => console.log(e));
