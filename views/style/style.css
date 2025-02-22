@@ -1,0 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#container1 {
+    background-color: aliceblue;
+}
