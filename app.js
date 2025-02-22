@@ -1,13 +1,10 @@
-const OpenAI = require("openai");
 const express = require('express')
 const app = express()
 const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 const path = require('path');
 const PORT = 3000;
-
-require('dotenv').config()
-console.log(process.env)
+const chat = require('./chatBot/gpt');
 
 //connect to database
 const mongoose = require('mongoose');
@@ -23,6 +20,12 @@ app.set('views', path.join(__dirname, 'views'))
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
+app.get('/', (req, res) =>{
+    res.render('index');
+})
+app.get('/chat', (req, res) => {
+    console.log(chat.completions("I am depressed"));
+})
 
 app.listen(PORT, () => {
     console.log('Serving on port 3000')
