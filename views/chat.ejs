@@ -1,0 +1,33 @@
+<% layout('layouts/boilerplate')%>
+    <div class="container">
+        <h1>Chat with Sophie </h1>
+        <div class="comment-container" style="overflow:auto;">
+            <% if (mindcare2 !== "") {%>
+                <% const orders = mindcare2.order;%>
+                <% var responseOrder = 0; %>
+                <% var commentOrder = 0; %>
+                <% for(let order of orders){ %>
+                    <% if (order == 'responses'){%>
+                            <% const response = mindcare2.responses[responseOrder];%>
+                            <div class="bubble-res"><p class="response"><%= response %></p></div>
+                            <br>
+                            <% responseOrder++;%>
+                    <% }else if (order == 'comments'){%>
+                            <% const comment = mindcare2.comments[commentOrder];%>
+                            <div class="bubble-user"><p class="comment"><%= comment %></p></div>
+                            <br>
+                            <% commentOrder++;%>
+                    <% } %>
+            <% } %>
+        
+            <% } %>
+        </div>
+        <div class="container-fluid">
+            <form id="form" class="chatbar" role="search" action="/chat" method="POST" autocomplete="off">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="comment" required >
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+    </div>
+
+

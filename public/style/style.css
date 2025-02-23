@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.comment-container {
+    background-color: antiquewhite; 
+    height: 70vh;
+    border-radius: 10px;
+    display: block;
+}
+
+.chatbar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    margin: 10vh;
+}
+
+.bubble-res {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bubble-user {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.response {
+    float: left;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.comment {
+    float: right;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
