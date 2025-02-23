@@ -113,13 +113,14 @@ body {
     margin-left: 25%;
 }
 #form1 {
-    margin-top: 15%;
+    margin-top: 5%;
     width: 400px;
     margin-left: 35%;
     font-family:'Playfair Display', serif ;
     background-color:#f1c3b8 ;
     border-radius: 15px;
     box-shadow: 10px 12px #f4e1c1;
+    margin-bottom: 100px;
 }
 #inputemail {
     background-color: #c3e4ac;

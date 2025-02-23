@@ -1,8 +1,9 @@
 html {
     scroll-behavior: smooth;
     background-color: #fffcf3;
-    z-index: 0;
+    z-index: 4;
     height: auto;
+    
 }
 body {
     background-color: #fffcf3;
@@ -40,9 +41,7 @@ body {
 #homebtn {
     margin-left: 10px;
     margin-top: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    font-style: bold;
     color: black;
 }
 .navbar-chatbot {
@@ -52,7 +51,6 @@ body {
     margin-top: 5px;
     margin-left: 640px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: bold;
     color: #0c0b48;
@@ -62,7 +60,6 @@ body {
 }
 #expertsbtn {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: bold;
     color: #0c0b48;
@@ -72,7 +69,6 @@ body {
 #subscriptionbtn {
     margin-top: 5px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: bold;
     color: #0c0b48;
@@ -80,7 +76,6 @@ body {
 #signinbtn {
     margin-top: 5px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: bold;
     color: #ff73d9;
@@ -88,7 +83,6 @@ body {
 #signupbtn {
     margin-top: 5px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: bold;
     color: #ff73d9;
@@ -97,32 +91,21 @@ body {
     padding-top: 80px;
     padding-left: 10px;
     font-weight: bold;
-    font-family: 'Playfair Display', serif ;
     font-size: 50px;
     z-index: 2;
 }
 #chatbotdesc {
     padding-left: 10px;
-    font-family:'Playfair Display', serif  ;
-    font-size: 30px;
-    
-}
-#container3 {
-    z-index: 1;
-    position: relative;
+    font-size: 30px; 
 }
 #div1 {
-    margin-top: 12%;
-    margin-left: 5%;
-    font-family:'Playfair Display', serif  ;
-    background-color: transparent;
-    z-index: 1;
-    position: relative;
-    font-style: bold;
-    height: auto;
-
+    color: black;
+    background-color:transparent;
+    z-index: 3;
+    position:relative;
+    margin-top: 9%;
+    margin-left: 40%;
 }
-/*SHAPE CODES*/
 #sc1 {
     width: 500px; /* Width of the semicircle */
     height: 300px; /* Height of the semicircle (half of width) */
@@ -153,32 +136,22 @@ body {
     left: -80px; /* Adjust the left position */
     z-index: 0;
 }
-
-#container4 {
-    width: 100%;
-    position: relative;
-    height: auto;
-}
-#container5 {
+#tncmain {
     background-color: #83b786;
-    width: 600px;
-    height: 150px;
-    border-radius: 10px;
-    margin-left: 350px;
-    font-family:'Playfair Display', serif  ;
-    font-size: 25px;
-    padding-left: 5px;
-    padding-top: 13px;
-}
-#herebtn {
-    background-color: transparent;
-    border: none;
-    color: #eb61c5;
-}
-#photo2 {
-    width: 320px;
-    height: 380px;
-    margin-left: 55%;
-    margin-top: -20%;
+    width: 800px;
+    height: 2000px;
+    margin-top: 10%;
+    margin-left: 20%;
     border-radius: 20px;
+    box-shadow: 10px 12px #709f73;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 3%;
+}
+#tnctxt {
+    margin-top: 4%;
+    margin-left: 14%;
+}
+.bold {
+    font-weight: bold;
 }

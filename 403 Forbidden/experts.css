@@ -1,8 +1,9 @@
 html {
     scroll-behavior: smooth;
     background-color: #fffcf3;
-    z-index: 0;
+    z-index: 4;
     height: auto;
+    
 }
 body {
     background-color: #fffcf3;
@@ -119,14 +120,50 @@ body {
     z-index: 1;
     position: relative;
 }
+#sccontainer {
+    position: relative;
+    z-index: -1;
+}
+#sc1 {
+    width: 500px; /* Width of the semicircle */
+    height: 300px; /* Height of the semicircle (half of width) */
+    background-color: #c7cef3; /* Color of the semicircle */
+    border-top-left-radius: 300px; /* Round the top left corner */
+    border-top-right-radius: 300px; /* Round the top right corner */
+    transform: rotate(-90deg); /* Rotate the semicircle 90 degrees clockwise */
+    transform-origin: center; /* Keep the center of rotation */
+    position: fixed; /* Position it relative to the page */
+    margin-top: 70px;
+    margin-left: 70%;
+    visibility: visible;
+    top: 100px; /* Adjust the top position */
+    left: 50px; /* Adjust the left position */
+    z-index: -3;
+}
+#sc2 {
+    background-color: #d35da8;
+    width: 300px; /* Width of the semicircle */
+    height: 150px; /* Height of the semicircle (half of width) */
+    border-top-left-radius: 300px; /* Round the top left corner */
+    border-top-right-radius: 300px; /* Round the top right corner */
+    transform: rotate(90deg); /* Rotate the semicircle 90 degrees clockwise */
+    transform-origin: center; /* Keep the center of rotation */
+    position: fixed; /* Position it relative to the page */
+    margin-top: 30% ;
+    top: 100px; /* Adjust the top position */
+    left: -80px; /* Adjust the left position */
+    z-index: -3;
+}
 #div2 {
     background-color: #83b786;
     z-index: 3;
     width: 1300px;
-    height: 1000px;
+    height: 2800px;
     margin-top: 4%;
     margin-left: 5%;
     border-radius: 25px;
+    z-index: 3;
+    margin-bottom: 5%;
 }
 #mt {
     width: 400px;
@@ -166,4 +203,91 @@ body {
     margin-left: 40%;
     font-family: 'Playfair Display', serif ;
     font-size: 15px;
+}
+#rc {
+    width: 315px;
+    height: 280px;
+    margin-top: 5%;
+    margin-left: 3%;
+    background-color: transparent;
+    border-radius: 100%;
+}
+#rctxt {
+    font-family: 'Playfair Display', serif ;
+    margin-left: 30%;
+    margin-top: -22%;
+    font-size: 40px;
+    color: black;
+}
+#rctxt2 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
+}
+#rctxt3 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
+}
+#am {
+    width: 260px;
+    height: 280px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    border-radius: 100%;
+}
+#amtxt {
+    font-family: 'Playfair Display', serif ;
+    margin-left: 30%;
+    margin-top: -22%;
+    font-size: 40px;
+    color: black;
+}
+#amtxt2 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
+}
+#amtxt3 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
+}
+#en {
+    width: 300px;
+    height: 320px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    border-radius: 100%;
+}
+#entxt {
+    font-family: 'Playfair Display', serif ;
+    margin-left: 30%;
+    margin-top: -22%;
+    font-size: 40px;
+    color: black;
+}
+#entxt2 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
+}
+#entxt3 {
+    font-family: 'Playfair Display', serif ;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: black;
 }
