@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #fffcf3;
+    z-index: 0;
+    height: auto;
+}
+body {
+    background-color: #fffcf3;
+    z-index: 0;
+    height: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR CODES*/
+#logo {
+    width: 60px;
+    height: 60px;
+    background-color: #83b786;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+#navbar {
+    background-color: #c3e4ac;
+    height: 80px;
+    position: fixed;
+}
+#container1 {
+    background-color: #c3e4ac;
+    height: 80px;
+    position: fixed;
+}
+#container2 {
+    background-color: #c3e4ac;
+}
+#homebtn {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+}
+.navbar-chatbot {
+    font-size: 0px;
+}
+#chatbotbtn {
+    margin-top: 5px;
+    margin-left: 640px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+}
+.navbar-signinup {
+    font-size: 0px;
+}
+#expertsbtn {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#subscriptionbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+}
+#signinbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #ff73d9;
+}
+#signupbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #ff73d9;
+}
+#chatbottxt {
+    padding-top: 80px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif ;
+    font-size: 50px;
+    z-index: 2;
+}
+#chatbotdesc {
+    padding-left: 10px;
+    font-family:'Playfair Display', serif  ;
+    font-size: 30px;
+    
+}
+#container3 {
+    z-index: 1;
+    position: relative;
+}
+#div1 {
+    margin-top: 12%;
+    margin-left: 5%;
+    font-family:'Playfair Display', serif  ;
+    background-color: transparent;
+    z-index: 1;
+    position: relative;
+    font-style: bold;
+    height: auto;
+
+}
+/*SHAPE CODES*/
+#sc1 {
+    width: 500px; /* Width of the semicircle */
+    height: 300px; /* Height of the semicircle (half of width) */
+    background-color: #c7cef3; /* Color of the semicircle */
+    border-top-left-radius: 300px; /* Round the top left corner */
+    border-top-right-radius: 300px; /* Round the top right corner */
+    transform: rotate(-90deg); /* Rotate the semicircle 90 degrees clockwise */
+    transform-origin: center; /* Keep the center of rotation */
+    position: fixed; /* Position it relative to the page */
+    margin-top: 70px;
+    margin-left: 70%;
+    visibility: visible;
+    top: 100px; /* Adjust the top position */
+    left: 50px; /* Adjust the left position */
+    z-index: 0;
+}
+#sc2 {
+    background-color: #d35da8;
+    width: 300px; /* Width of the semicircle */
+    height: 150px; /* Height of the semicircle (half of width) */
+    border-top-left-radius: 300px; /* Round the top left corner */
+    border-top-right-radius: 300px; /* Round the top right corner */
+    transform: rotate(90deg); /* Rotate the semicircle 90 degrees clockwise */
+    transform-origin: center; /* Keep the center of rotation */
+    position: fixed; /* Position it relative to the page */
+    margin-top: 30% ;
+    top: 100px; /* Adjust the top position */
+    left: -80px; /* Adjust the left position */
+    z-index: 0;
+
+    
+}
+
+#container4 {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+#container5 {
+    background-color: #83b786;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 350px;
+    font-family:'Playfair Display', serif  ;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 13px;
+}
+#herebtn {
+    background-color: transparent;
+    border: none;
+    color: #eb61c5;
+}
+#photo2 {
+    width: 320px;
+    height: 380px;
+    margin-left: 55%;
+    margin-top: -20%;
+    border-radius: 20px;
+}
