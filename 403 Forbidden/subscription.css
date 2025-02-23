@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #fffcf3;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffcf3;
+    height: 500px;
+}
+#body {
+    height: 3px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    background-color: #83b786;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+#navbar {
+    background-color: #c3e4ac;
+    height: 80px;
+    position: fixed;
+}
+#container1 {
+    background-color: #c3e4ac;
+    height: 80px;
+    position: fixed;
+}
+#container2 {
+    background-color: #c3e4ac;
+}
+#homebtn {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+}
+.navbar-chatbot {
+    font-size: 0px;
+}
+#chatbotbtn {
+    margin-top: 5px;
+    margin-left: 640px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+}
+.navbar-signinup {
+    font-size: 0px;
+}
+#expertsbtn {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#subscriptionbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #0c0b48;
+}
+#signinbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #ff73d9;
+}
+#signupbtn {
+    margin-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #ff73d9;
+}
+#chatbottxt {
+    padding-top: 80px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif ;
+    font-size: 50px;
+}
+#chatbotdesc {
+    padding-left: 10px;
+    font-family:'Playfair Display', serif  ;
+    font-size: 30px;
+    
+}
+
+#container4 {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#div1 {
+    background-color: #fffcf3;
+}
+#shape1 {
+    width: 500px;
+    height: 600px;
+    background-color: #fffcf3;
+    margin-top: 20%;
+    position:absolute;
+    left: -200px;
+    z-index: 0;
+}
+
+#div2 {
+    background-color: transparent;
+    font-family:'Playfair Display', serif ;
+    width: 600px;
+    height: 100px;
+    margin-top: 30%;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+#div3 {
+    z-index: 1;
+    margin-left: 65%;
+    margin-bottom: 90%;
+}
+#photo1 {
+    width: 320px;
+    height: 480px;
+    z-index: 0;
+    margin-bottom: 90%;
+    margin-top: -45%;
+    border-radius: 15px;
+}

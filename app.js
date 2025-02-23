@@ -20,16 +20,8 @@ app.set('views', path.join(__dirname, 'views'))
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
-<<<<<<< HEAD
 app.get('/', (req, res)=>{
     res.render('index')
-=======
-app.get('/', (req, res) =>{
-    res.render('index');
-})
-app.get('/chat', (req, res) => {
-    console.log(chat.completions("I am depressed"));
->>>>>>> 42010cc8a42790e1fa522c00c237a000440b5758
 })
 
 app.listen(PORT, () => {

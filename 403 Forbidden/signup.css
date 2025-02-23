@@ -104,83 +104,49 @@ body {
 #chatbotdesc {
     padding-left: 10px;
     font-family:'Playfair Display', serif  ;
-    font-size: 30px;
-    
+    font-size: 30px; 
 }
-#container3 {
-    z-index: 1;
-    position: relative;
+#div0 {
+    width: 500px;
+    height: 600px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+#form1 {
+    margin-top: 15%;
+    width: 400px;
+    margin-left: 35%;
+    font-family:'Playfair Display', serif ;
+    background-color:#f1c3b8 ;
+    border-radius: 15px;
+    box-shadow: 10px 12px #f4e1c1;
+}
+#inputemail {
+    background-color: #c3e4ac;
+    width: 10%;
+}
+#inputpassword {
+    background-color: #c3e4ac;
 }
 #div1 {
-    margin-top: 12%;
-    margin-left: 5%;
-    font-family:'Playfair Display', serif  ;
-    background-color: transparent;
-    z-index: 1;
-    position: relative;
     font-style: bold;
-    height: auto;
-
+    padding-bottom: 20px;
 }
-/*SHAPE CODES*/
-#sc1 {
-    width: 500px; /* Width of the semicircle */
-    height: 300px; /* Height of the semicircle (half of width) */
-    background-color: #c7cef3; /* Color of the semicircle */
-    border-top-left-radius: 300px; /* Round the top left corner */
-    border-top-right-radius: 300px; /* Round the top right corner */
-    transform: rotate(-90deg); /* Rotate the semicircle 90 degrees clockwise */
-    transform-origin: center; /* Keep the center of rotation */
-    position: fixed; /* Position it relative to the page */
-    margin-top: 70px;
-    margin-left: 70%;
-    visibility: visible;
-    top: 100px; /* Adjust the top position */
-    left: 50px; /* Adjust the left position */
-    z-index: 0;
+#submitbtn {
+    background-color: #eccde3;
+    border-color: #ff94de;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: inset 0 0 0 #ff94de ;
+    transition: ease-out 0.2s;
+    outline: none;
 }
-#sc2 {
-    background-color: #d35da8;
-    width: 300px; /* Width of the semicircle */
-    height: 150px; /* Height of the semicircle (half of width) */
-    border-top-left-radius: 300px; /* Round the top left corner */
-    border-top-right-radius: 300px; /* Round the top right corner */
-    transform: rotate(90deg); /* Rotate the semicircle 90 degrees clockwise */
-    transform-origin: center; /* Keep the center of rotation */
-    position: fixed; /* Position it relative to the page */
-    margin-top: 30% ;
-    top: 100px; /* Adjust the top position */
-    left: -80px; /* Adjust the left position */
-    z-index: 0;
-
-    
+#submitbtn:hover {
+    box-shadow: inset 300px 0 0 0 #c3e4ac;
+    cursor: pointer;
+    color: black;
 }
-
-#container4 {
-    width: 100%;
-    position: relative;
-    height: auto;
-}
-#container5 {
-    background-color: #83b786;
-    width: 600px;
-    height: 150px;
-    border-radius: 10px;
-    margin-left: 350px;
-    font-family:'Playfair Display', serif  ;
-    font-size: 25px;
-    padding-left: 5px;
-    padding-top: 13px;
-}
-#herebtn {
+#submithref {
+    color: black;
     background-color: transparent;
-    border: none;
-    color: #eb61c5;
-}
-#photo2 {
-    width: 320px;
-    height: 380px;
-    margin-left: 55%;
-    margin-top: -20%;
-    border-radius: 20px;
 }
